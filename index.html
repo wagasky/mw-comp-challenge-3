@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MW Static Comp #3</title>
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="grid-container">
+
+  <section id="local-navigation-drawer">
+    <article id="profile-container">
+      <img class="profile-picture" alt="User's profile picture" src="./images/Hero.png">
+      <h2 class="drawer-heading profile-title">Newton Barley<i class="fa fa-caret-down profile-icon" aria-hidden="true"></i></h2>
+    </article>
+    <article id="drawer-menu--main">
+      <h3 class="drawer-heading">Main</h3>
+      <span>
+        <button class="drawer-button"><i class="fa fa-globe" aria-hidden="true"></i>home</button>
+      </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-flask" aria-hidden="true"></i>scientists</button>
+      </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-graduation-cap" aria-hidden="true"></i>research</button>
+       </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-envelope-open" aria-hidden="true"></i>resumes</button>
+       </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-calendar" aria-hidden="true"></i>calendar</button>
+       </span>
+    </article>
+    <article id="drawer-menu--admin">
+      <h3 class="drawer-heading">Admin</h3>
+      <span>
+        <button class="drawer-button"><i class="fa fa-reddit-alien" aria-hidden="true"></i>Users</button>
+      </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-star" aria-hidden="true"></i>galaxies</button>
+      </span>
+      <span>
+         <button class="drawer-button"><i class="fa fa-superpowers" aria-hidden="true"></i>Universes</button>
+      </span>
+      <span>
+         <button class="drawer-button"><i class="fa fa-space-shuttle" aria-hidden="true"></i>Spacecraft</button>
+      </span>
+      <span>
+         <button class="drawer-button"><i class="fa fa-plug" aria-hidden="true"></i>social</button>
+      </span>
+    </article>
+    <article id="drawer-menu--categories">
+      <h3 class="drawer-heading">Categories</h3>
+      <span>
+        <button class="drawer-button"><i class="fa fa-check-square first-box" aria-hidden="true"></i>Human Applicants</button>
+      </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-square second-box" aria-hidden="true"></i>Martian Applicants</button>
+      </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-square third-box" aria-hidden="true"></i>Outer Galaxy Aliens</button>
+      </span>
+      <span>
+        <button class="drawer-button"><i class="fa fa-square fourth-box" aria-hidden="true"></i>All</button>
+      </span>
+    </article>
+  </section>
+
+  <section id="global-navigation">
+    <button class="global-navigation--button hamburger"></button>
+    <input id="search-input" type="text" name="search-input" placeholder="Search for truth"></input>
+    <label for="search-input"></label>
+    <button class="global-navigation--button right-nav-button astronaut"></button>
+    <button class="global-navigation--button right-nav-button telescope"></button>
+    <button class="global-navigation--button right-nav-button rocket"></button>
+  </section>
+
+<div id="local-navigation">
+  <section id="local-navigation-heading" class="local-navigation-styling page-title">
+      <h1 id="role-title-heading">Customer Service Representative</h1>
+      <h4 id="role-title-location"><i class="fa fa-map-marker" aria-hidden="true"></i></i>San Francisco, CA - <span id="location-link">Preview this post</span></h4>
+  </section>
+  <section id="local-navigation-button-group" class="local-navigation-styling">
+      <button class="local-nav-buttons big-local-nav-button"><i class="fa fa-circle" aria-hidden="true"></i>Open</button>
+      <button class="local-nav-buttons"><i class="fa fa-bookmark" aria-hidden="true"></i></button>
+      <button class="local-nav-buttons"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+      <button class="local-nav-buttons"><i class="fa fa-trash" aria-hidden="true"></i></button>
+  </section>
+
+  </div>
+
+  <section class="sub-navigation-styling">
+      <button class="sub-navigation-buttons primary-sub-nav-button">Summary</button>
+      <button class="sub-navigation-buttons secondary-sub-nav-buttons">Applicants</button>
+      <button class="sub-navigation-buttons secondary-sub-nav-buttons">Job Board</button>
+      <button class="sub-navigation-buttons secondary-sub-nav-buttons">Interviews</button>
+      <button class="sub-navigation-buttons secondary-sub-nav-buttons">Activity</button>
+      <button class="sub-navigation-buttons secondary-sub-nav-buttons">Broadcast</button>
+      <button class="sub-navigation-buttons secondary-sub-nav-buttons">Notifications</button>
+  </section>
+
+  <section id="data-container">
+    <div class="data-box">
+    <div id= "circle-graph-container">
+    <div class="circle-graph first"><div class="first-inner-circle">50% galaxies</div></div>
+    <div class="circle-graph second"><div class="second-inner-circle">75% universe</div></div>
+    <div class="circle-graph third"><div class="third-inner-circle">100% awesome</div></div>
+    </div>
+    <h3 class="graph-label">TOTALS Out of 5,281 views</h3>
+    </div>
+    <div class="data-box">
+    <div>
+    <img class="graph" alt="User's profile picture" src="./images/placeholder-graph.png">
+    </div>
+    <h3 class="graph-label">APPLICANTS/DAY</h3>
+    </div>
+  </section>
+
+  <button id="drawer-toggle-button">DrawerButton</button>
+
+  <section id="resume-display">
+        <div class="resume-row title-row">
+        <h2 class="resume-column-1">Job Description</h2>
+        <button id="resume-edit-button"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
+        </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Position Title</h3>
+        <p id="two" class="resume-column-2">Customer Service Representative</p>
+       </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Location</h3>
+        <p class="resume-column-2">San Francisco, CA</p>
+        </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Employment Type</h3>
+        <p class="resume-column-2">Full-time</p>
+        </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Experience</h3>
+        <p class="resume-column-2">Mid-level</p>
+        </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Status</h3>
+        <p class="resume-column-2">Open</p>
+        </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Description</h3>
+        <p class="resume-column-2">Kombucha etsy gastropub, trust fund woke direct trade PBR actually bicycle rights thundercats listicle yr shoreditch. Kinfolk bushwick tbh heirloom asymmetrical pickled. Kitsch bitters PBR hella. Artisan YOLO XOXO banjo DIY biodiesel sustainable, tote bag man bun cloud bread humblebrag woke gastropub. Schlitz umami +1 pork belly shoreditch, kale chips waistcoat photo booth vinyl bicycle rights messenger bag blue bottle pinterest migas banh mi.</p>
+        </div>
+        <div class="resume-row">
+        <h3 class="resume-column-1">Hiring Lead</h3>
+        <p class="resume-column-2"><img src="">Tom Tizzy</p>
+        </div>
+        <div class="resume-row bottom-row">
+        <h3 class="resume-column-1">Approved Salary</h3>
+        <p class="resume-column-2">$58,000</p>
+      </div>
+    </section>
+
+
+    <section id="external-links-container">
+      <div id="social-button-container">
+      <button class="social-media-button facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Post to facebook</button>
+      <button class="social-media-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Tweet this Job</button>
+      <button class="social-media-button linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i>Post to Linkedin</button>
+      </div>
+      <div id="external-links-container-div">
+      <article>
+        <h5><i class="fa fa-share" aria-hidden="true"></i>Link to this Job</h5>
+        <p>pork belly shoreditch, kale chips waistcoat photo booth vinyl bicycle rights messenger bag blue bottle</p>
+        <span><p class="copy-text-field">A long and fancy URL<button class="copy-text-field-button">Copy</button></p></span>
+      </article>
+      <article>
+        <h5><i class="fa fa-link" aria-hidden="true"></i></i>Use the Button Widget</h5>
+        <p>pork belly shoreditch, kale chips waistcoat photo booth vinyl bicycle rights messenger bag blue bottle</p>
+
+        <span><p class="copy-text-field">A long and fancy URL<button class="copy-text-field-button">Copy</button></p></span>
+      </article>
+      <article>
+        <h5><i class="fa fa-paper-plane" aria-hidden="true"></i>Upload Resume by Email</h5>
+        <p>pork belly shoreditch, kale chips waistcoat photo booth vinyl bicycle rights messenger bag blue bottle</p>
+        <label>
+        <input class="long-external-link-input" type="text" name="" placeholder="melissawagasky@gmail.com">
+        </label>
+      </article>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
